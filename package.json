@@ -24,8 +24,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-    "createfirebaseconf": "firebase apps:sdkconfig web --json > ./src/firebase-config.json"
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [

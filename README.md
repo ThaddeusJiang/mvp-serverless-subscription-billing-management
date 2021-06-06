@@ -2,6 +2,38 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Features
+
+* MVP
+* serverless billing website
+* sign up / sign in
+* pay / subscribe
+* billing management
+
+# Made with
+
+* [react-stripe-js](https://github.com/stripe/react-stripe-js)
+* [firebase-web-react](https://github.com/firebase/firebaseui-web-react)
+* ~~Next.js~~ / CRA
+* Tailwind CSS
+
+# Pages & UI Design
+
+1. Landing Page
+   1. Header
+   2. Hero Section + Pay Button
+   3. Contents:
+      1. Why you should pay?
+      2. What you will get?
+      3. How to get support?
+      4. Who made this?
+2. Inside Page
+   1. Header
+   2. Member Status
+   3. Billing
+
+
 ## Available Scripts
 
 In the project directory, you can run:

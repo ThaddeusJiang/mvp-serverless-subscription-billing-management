@@ -1,8 +1,11 @@
-import SignInSection from "./SignInSection";
-import StripeContainer from "./StripeContainer";
-import StripeSubscribeManagement from "./StripeSubscribeManagement";
-import firebase from "./firebase";
 import { useState } from "react";
+import firebase from "./firebase";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Auth from "./components/Auth";
+import StripeContainer from "./components/StripeContainer";
+import StripeSubscribeManagement from "./components/StripeSubscribeManagement";
+import Footer from "./components/Footer";
 
 function App() {
   const [userId, setUserId] = useState("");
@@ -15,25 +18,28 @@ function App() {
     }
   });
   return (
-    <div className="m-4 space-y-16">
-      <section className="p-4 border rounded">
-        <h1>Hi Friend, This is mvp-serverless-billing-website.</h1>
-        <p>This is a MVP(minimum viable product)</p>
-        <p>Features:</p>
-        <p>sign up / sign in</p>
-        <p>subscribe</p>
-        <p>billing management</p>
+    <div>
+      <section>
+        <Hero />
+      </section>
+
+      <section>
+        <Features />
+      </section>
+
+      <section>
+        <Auth />
       </section>
 
       {userId && (
-        <section className="p-4 border rounded">
+        <section>
           <StripeContainer>
             <StripeSubscribeManagement userId={userId} />
           </StripeContainer>
         </section>
       )}
 
-      <SignInSection />
+      <Footer />
     </div>
   );
 }

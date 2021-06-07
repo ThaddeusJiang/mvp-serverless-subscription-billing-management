@@ -1,39 +1,15 @@
-# mvp-serverless-billing-website
+# Serverless Subscription and Billing Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a minimum viable product for offering subscription and billing management to members.
 
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Made with
 
-* MVP
-* serverless billing website
-* sign up / sign in
-* pay / subscribe
-* billing management
-
-# Made with
-
-* [react-stripe-js](https://github.com/stripe/react-stripe-js)
-* [firebase-web-react](https://github.com/firebase/firebaseui-web-react)
-* ~~Next.js~~ / CRA
-* Tailwind CSS
-
-# Pages & UI Design
-
-1. Landing Page
-   1. Header
-   2. Hero Section + Pay Button
-   3. Contents:
-      1. Why you should pay?
-      2. What you will get?
-      3. How to get support?
-      4. Who made this?
-2. Inside Page
-   1. Header
-   2. Member Status
-   3. Billing
-
-
+* [Firebase](https://firebase.google.com/)
+* [Stripe](https://stripe.com/)
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -60,29 +36,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 ```
@@ -90,7 +43,3 @@ yarn build
 
 firebase deploy
 ```
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
